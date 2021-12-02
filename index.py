@@ -26,5 +26,4 @@ def get_message(message):
         else:
             bot.send_photo(user_id, photo=open(png_['screen'], 'rb'))
 
-if __name__ == "__main__":
-    bot.polling(none_stop=True, interval=0)
+bot.polling(none_stop=True, interval=0)
